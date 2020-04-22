@@ -1,0 +1,11 @@
+# Other way to draw seven colorful circles
+from turtle import *
+colors=['red','orange','yellow','green','blue','indigo','purple']
+for i in range(7):
+    begin_fill()
+    c=colors[i]
+    color(c,c)
+    rt(360/7)
+    circle(50)
+    end_fill()
+done()
